@@ -33,16 +33,16 @@ public class Cuenta {
 	}
 	
 	public void ingresar(double i) {
-		this.saldo = 500.0;
+		this.saldo += i;
 		
 	}
 	
 	public Cuenta(double i) {
-			
-		}
+		this.saldo = i;
+	}
 	
 	public void retirar(double i) {
-		this.saldo = -500.0;
+		this.saldo -= i;
 		
 	}
 
