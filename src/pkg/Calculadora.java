@@ -11,7 +11,7 @@ public class Calculadora {
 	}
 
 	public static Integer multiplica(int i, int j) {
-		return i*j;
+		return i*j; 
 	}
 
 	public static float divide(int i, int j) {
